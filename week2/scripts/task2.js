@@ -36,6 +36,7 @@ var favFoods = [
   "[any fruit] pie",
   "cheese & broccoli soup",
   "hamburger stroganoff",
+  "grilled cheese",
 ];
 
 // Step 2: place the values of the favorite foods variable into the HTML file
