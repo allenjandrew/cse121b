@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+header {
+  margin-bottom: 20%;
+}
+div#screen {
+  margin: 0 50px;
+}
+div.char-holder {
+  display: inline-block;
+  width: 49.5%;
+}
+div#char2-div {
+  text-align: right;
+}
+img.chars {
+  height: 250px;
+}
+img#char2 {
+  transform: scaleX(-1);
+}
+img#frisbee {
+  width: 100px;
+  z-index: 1;
+  position: absolute;
+}
+/* * {
+  border: 5px dashed orangered;
+} */
