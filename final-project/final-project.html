@@ -10,25 +10,37 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to a game</h1>
-      <p>Instructions blah blah blah. Just catch and throw the frisbee</p>
-      <button id="new-chars">New Characters</button>
+      <div id="intro-box">
+        <h1>Welcome to a game</h1>
+        <p>Instructions blah blah blah. Just catch and throw the frisbee</p>
+        <button id="new-chars">New Characters</button>
+        <button id="new-stage">New Stage</button>
+        <div id="you-lose" class="hidden">
+          <p id="score-count">You suck!</p>
+          <button id="reset-button">Reset</button>
+        </div>
+      </div>
     </header>
+    <img
+      id="background-img"
+      src="images/citypink-stage.jpg"
+      alt="background image"
+    />
     <div id="screen">
       <div id="char1-div" class="char-holder">
         <img
           id="char1"
           class="chars"
-          src="images/sans-char.png"
-          alt="sans-char"
+          src="images/ninja-char.png"
+          alt="character 1"
         />
       </div>
       <div id="char2-div" class="char-holder">
         <img
           id="char2"
           class="chars"
-          src="images/megaman-char.png"
-          alt="megaman-char"
+          src="images/ninja-char.png"
+          alt="character 2"
         />
       </div>
       <img id="frisbee" src="images/frisbee.png" alt="frisbee" />

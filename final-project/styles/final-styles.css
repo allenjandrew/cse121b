@@ -2,7 +2,32 @@ body {
   margin: 0;
 }
 header {
-  margin-bottom: 20%;
+  height: 450px;
+  text-align: center;
+  align-items: center;
+  padding-top: 75px;
+}
+div#intro-box {
+  margin: 0px auto 75px;
+  padding: 15px;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(250, 235, 215, 0.6);
+}
+header h1 {
+  margin: 0px;
+  font-family: fantasy;
+  font-size: 3em;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img#background-img {
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  top: 0px;
 }
 div#screen {
   margin: 0 50px;
@@ -25,6 +50,14 @@ img#frisbee {
   z-index: 1;
   position: absolute;
 }
-/* * {
+.hidden {
+  display: none;
+}
+
+/* Comment this section back in for testing */
+/* div.char-holder {
+  width: 48%;
+}
+* {
   border: 5px dashed orangered;
 } */
