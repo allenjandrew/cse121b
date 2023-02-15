@@ -36,12 +36,12 @@ function loadNewChars() {
 
   // Set char 1 image
   let char1 = document.querySelector("#char1");
-  char1.src = `images/${leftChar}-char.png`;
+  char1.src = `images/characters/${leftChar}-char.png`;
   char1.alt = `Character 1 - ${leftChar}`;
 
   // Set char 2 image
   let char2 = document.querySelector("#char2");
-  char2.src = `images/${rightChar}-char.png`;
+  char2.src = `images/characters/${rightChar}-char.png`;
   char2.alt = `Character 2 - ${rightChar}`;
 
   const frisbeeEl = document.querySelector("#frisbee");
@@ -75,7 +75,7 @@ function loadNewStage() {
   );
 
   backgroundEl = document.querySelector("#background-img");
-  backgroundEl.src = `images/${stage}-stage.jpg`;
+  backgroundEl.src = `images/stages/${stage}-stage.jpg`;
   backgroundEl.alt = `background stage - ${stage}`;
 
   document.activeElement.blur();
@@ -141,7 +141,7 @@ function throwFrisbee(toRight) {
     charName = rightChar;
     currentX = rightFrisbeeStop;
   }
-  charEl.src = `images/${charName}-throw.png`;
+  charEl.src = `images/characters/${charName}-throw.png`;
 
   currentY = frisbeeBaseY;
 
@@ -155,7 +155,7 @@ function throwFrisbee(toRight) {
 
   // Set back to standing sprite after timeout
   setTimeout(() => {
-    charEl.src = `images/${charName}-char.png`;
+    charEl.src = `images/characters/${charName}-char.png`;
   }, 350);
 
   // Hide intro box
