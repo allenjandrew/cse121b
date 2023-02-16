@@ -1,0 +1,15 @@
+Attributes to look for when choosing a source:
+    Knowledgeable
+    Comprehensive
+    Contains references or citations
+    Flexible syntax
+    Multiple examples
+    Common troubleshooting helps
+    Accurate, up-to-date information
+
+Good sources:
+    W3 Schools - simple, clear, up-to-date
+    Stack Exchange - comprehensive, examples, help with obscure troubleshooting
+    Stack Overflow - comprehensive, examples, help with obscure troubleshooting
+    Free Code Camp - more information about how to use basic code
+    Geeks for Geeks - another simple and helpful resource 
